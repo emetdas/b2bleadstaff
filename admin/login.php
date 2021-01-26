@@ -2,6 +2,7 @@
 include 'config.php';
 ?>
 <form action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" method="post">
+<h2 class="admin-heading">Login Admin</h2>
 <div class="input-group">
     <i class="far fa-envelope-open"></i>
     <input type="text" placeholder="Enter Your Email">
