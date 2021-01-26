@@ -6,6 +6,3 @@
     <?php include 'link.php';?>
 </head>
 <body>
-    
-</body>
-</html>
