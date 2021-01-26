@@ -1,17 +1,32 @@
 /* comon and reset css */
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
-body{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
+:root {
+  --white:#fff;
+  --black:#000;
+  --black-light:rgb(8, 0, 31);
+  --primary-1: #7c71e1;
+  --primary-2:#7b68ee;
+  --primary-3:#6b63d3;
+  --secondary-1: #34278d;
+  --secondary-2: #393377;
+  --therd:#6495ed;
+  --fourth:#4682b4;
+  --gray:gray;
+  --gray-light:rgb(238, 238, 238);
+  --accent:#fa8072;
+  --primary-grident-1: linear-gradient(#ea8d8d, #a890fe);
+}
